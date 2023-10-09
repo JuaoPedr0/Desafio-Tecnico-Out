@@ -1,16 +1,23 @@
-# desafio_tecnico
+# Desafio Técnico - Out
 
-A new Flutter project.
+Este projeto foi desenvolvido no Flutter sem o uso de bibliotecas externas, utilizando apenas o "material.dart" padrão do próprio Flutter.
 
-## Getting Started
+## Como Executar
 
-This project is a starting point for a Flutter application.
+Para executar o projeto, siga estes passos:
 
-A few resources to get you started if this is your first Flutter project:
+1. **Verificar emuladores:**
+   No terminal, execute o seguinte comando para listar seus emuladores disponíveis:
+   ```bash
+   flutter emulators
+   
+2. **Inicie o Emulador:**
+   Ao localizar seu emulador execute o seguinte comando e o emulador deve iniciar normalmente:
+   ```bash
+   flutter emulators --launch  <NOME DO EMULADOR>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Inicie o Projeto:**
+    Com o emulador devidamente iniciado, basta ir até o diretório do projeto e executar o comando a seguir e o projeto já deve iniciar no seu emulador escolhido:
+   ```bash
+   flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
